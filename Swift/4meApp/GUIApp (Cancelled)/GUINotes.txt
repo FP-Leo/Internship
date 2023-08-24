@@ -1,0 +1,17 @@
+Completed:
+1. Log in Screen (two templates)
+2. Main Screen ( design can change )
+3. New Request Screen designs ( two to choose from, after that one will get deleted )
+4. Show Request Screen design
+5. Service Instance Screen
+
+To be implemented:
+1. Log in security and logic. // Medium
+2. Navigation Bar functions ( log out from the gear, view profile from the person icon). // Easy
+3. ConfigurationItemsScreen // Easy
+4. Connect the app using the actual API not personal API tokens. // Hard
+5. Send request using API. // Easy after step 3 or using personal tokens
+6. View your requests using the API // Easy after step 3, already done using personal API tokens
+7. Customize colors for dark mode. // Easy
+
+Alterantive to connecting the whole app with the APi would be to force every user to use their own personal API tokens but that is not user friendly.
