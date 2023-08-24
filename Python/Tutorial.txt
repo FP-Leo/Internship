@@ -1,0 +1,14 @@
+These scripts are designed to work with Wazuh. 
+
+To get them to work with wazuh you need to 
+
+1.turn these scripts into exes using pyinstaller, 
+2.put them in the active response folder of the Wazuh agent, 
+3.define a command in the Wazuh Manager Configuration, link that command to the exe you want, 
+4.write the active response command and 
+5.the rule that will trigger it.
+6.Then restart the agent and manager and you're good to go.
+
+-How it works? Wazuh forwards the logs in the stdline of the script, the script first reads logs, proccesses the commands and then acts accordingly. 
+
+-Note that is the Windows proccess For linux you don't need to turn them to exes just put the .py file in the active response folder and target that instead. Since every file has #!/usr/bin/python3 Linux knows how to execute it if it has python3 installed.
